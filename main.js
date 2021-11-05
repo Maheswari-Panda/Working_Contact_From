@@ -17,17 +17,19 @@ themtoggler.onclick = () => {
 }
 
 // contact section
-/* let form = document.getElementById('form');
-
-let name = document.getElementById('name');
-let email = document.getElementById('email');
-let number = document.getElementById('number');
-let subject = document.getElementById('subject');
-let message = document.getElementById('message');
-
-form.addEventListener('submit', function(){
-   console.log('form section');
-   
-   let info = localStorage.setItem('name');
-})
-*/
+$(document).ready(function () {
+    $('.submit').click(function(event){
+       event.preventDefault();
+       console.log('clicked now');
+       
+       var name = $('.name').val();
+       var number = $('.number').val();
+       var email = $('.email').val();
+       var message = $('.message').val();
+       var status = $('.status');
+       status.empty();
+       
+      
+       
+    })
+ })
