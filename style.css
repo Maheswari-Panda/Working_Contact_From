@@ -157,6 +157,7 @@ body.active{
    margin: 1rem 1rem;
    border-radius: 1rem;
    width: 30rem;
+   color: var(--black);
 }
 .about .box-container .about-content .textbox:hover{
    
